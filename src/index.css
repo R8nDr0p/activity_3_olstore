@@ -1,0 +1,134 @@
+/* Custom styles for the active link */
+.nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 10px;
+    padding: .25rem;
+  }
+  
+  /* old css */
+
+  .company-icon{
+    width:100px;
+}
+.navbar-brand{
+    color: rgba(81, 23, 47, 1);
+}
+/* navbar icon change color inspect ftw */
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2881, 23, 47, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+    border-color: rgba(81, 23, 47, 1);
+}
+.header-brand-name{
+    font-family: dynapuff, cursive, arial;
+    /* font-size: 1.5rem; */
+}
+.slogan-homepage{
+    color: rgba(81, 23, 47, 1);
+    font-family: courier,courier new, times new roman;
+}
+.slide-show{
+    background-color: rgb(233, 233, 186);
+    border-radius: 20px;
+}
+.carousel-caption{
+    color: rgba(81, 23, 47, 1);
+}
+.product-label{
+    color: rgba(81, 23, 47, 1); 
+}
+/* #img-fix{
+    height: 200%;
+} */
+.card-button{
+    background-color: beige ;
+    border: 1px solid;
+    color: rgba(81, 23, 47, 1);
+}
+.card-button:hover{
+    background-color:rgba(81, 23, 47, 1);
+    border: 1px solid;
+    color: beige;
+}
+.card{
+    transition: transform 0.2s;
+}
+.card:hover{
+    transform: scale(1.05)
+}
+.see-all-link{
+    color: rgba(81, 23, 47, 1);
+    text-decoration: none;
+}
+.see-all-link:hover{
+    color: black;
+}
+.footer-head{
+    color: beige;
+    text-decoration: none;
+}
+.footer-brand{
+    color: beige;
+    font-family: Dynapuff, cursive;
+    text-decoration: none;
+}
+.footer-brand:hover{
+    color: rgb(153, 41, 87);
+    text-decoration: underline;
+}
+.footer-about{
+    color: beige;
+    text-decoration: none;
+    
+}
+.footer-about:hover{
+    color: rgb(153, 41, 87);
+    text-decoration: underline;
+}
+.footer-social-buttons{
+    font-size: 2rem;
+    color: beige;
+}
+.footer-social-buttons:hover{
+    color:rgb(153, 41, 87);
+}
+.modal-content{
+    background-color: bisque;
+}
+.title-about{
+    color: rgba(81, 23, 47, 1); 
+}
+.payment-head{
+    font-family: courier, courier new, times new roman;
+}
+.payment-icon{
+    width: 50px;
+}
+.form-container{
+    background-color: beige;
+}
+.order-form-head{
+    font-family: courier, courier new, times new roman;
+}
+.form-button{
+    /* background-color: beige ;
+    border: 1px solid;
+    color: rgba(81, 23, 47, 1); */
+    background-color:rgba(81, 23, 47, 1);
+    border: 1px solid;
+    color: beige;
+}
+.form-button:hover{
+    /* background-color:rgba(81, 23, 47, 1);
+    border: 1px solid;
+    color: beige; */
+    background-color: beige ;
+    border: 1px solid;
+    color: rgba(81, 23, 47, 1);
+}
+#products-section{
+    scroll-behavior: smooth;
+    scroll-margin-top: 80px;
+}
