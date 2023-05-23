@@ -1,7 +1,6 @@
 function Products() {
   return (
     <>
-      <h2>Products</h2>
       <section className="Product-section">
         <div className="container">
           <div className="row">
