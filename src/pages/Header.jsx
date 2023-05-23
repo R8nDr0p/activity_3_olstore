@@ -1,16 +1,16 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-light sticky-top">
         <div className="container-fluid">
-          <a className="navbar-brand ms-2 fw-bold p-0" href="index.html">
+          <Link to={"/"} className="navbar-brand ms-2 fw-bold p-0">
             <h1 className="header-brand-name">
               <i className="fa-solid fa-bounce fa-keyboard fa-2xl"></i>Keyboard
               Palace
             </h1>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
